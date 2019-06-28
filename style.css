@@ -1,0 +1,65 @@
+h1 {
+    color: darkblue;
+    font-family: 'Rubik Mono One', sans-serif;
+    word-spacing: -0.5em;
+    font-size: 1.7em;
+}
+
+li {
+    color: black;
+    margin: 10px;
+    word-break: break-all;
+}
+
+ol {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 75%;
+}
+
+main {
+    background-image: radial-gradient(pink, purple);
+    padding: 20px;
+    width: 100%;
+    margin: 0;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+}
+
+body {
+    margin: 0;
+}
+
+button {
+    background-color: lightblue;
+    border-style: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: darkblue;
+    width: 15%;
+    padding: 0.2em;
+    margin: 5px;
+    cursor: pointer;
+}
+
+input {
+    font-family: 'Indie Flower', cursive;
+    background-image: linear-gradient(wheat, pink);
+    padding: 5px;
+    width: 85%;
+    font-size: 1em;
+}
